@@ -15,13 +15,17 @@ To address these challenges, I analyzed the raw data using **SQL**.
 ---
 ## 📊 Key Findings
 ### 1. The "Powerhouse" Dishes
+
 The analysis revealed a distinct split between items that drive **volume** (foot traffic) and items that drive **revenue** (profit).
+
 **Volume Leader:** The **Hamburger** is the #1 most-ordered item (622 orders), acting as a reliable staple for the business.
+
 **Revenue Champion:** The **Korean Beef Bowl** is the single most valuable dish. It is the 3rd most ordered item but generates the highest total revenue (**~$10,500**), outperforming the Hamburger by nearly $2,500 due to its higher price point.
+
 **Hidden Gems:** **Spaghetti & Meatballs** is the 2nd highest revenue generator (~$8,400), proving that Italian entrees are crucial for the bottom line.
 
 ### 2. Category Performance
-**Top Volume:** **Asian** cuisine is the most popular category by sheer number of orders (3,470 items sold).
+**Top Volume:** **Asian** cuisine is the most popular category by sheer number of orders (3,470 items sold). 
 **Top Revenue:** **Italian** cuisine generates the most money (**~$49,400**), despite having fewer orders than Asian. This suggests Italian items have a better profit margin or higher average price.
 
 ### 3. Menu "Dead Weight"
