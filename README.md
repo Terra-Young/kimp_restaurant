@@ -9,7 +9,9 @@ Kimp Restaurant has captured extensive transactional data but lacks the insights
 To address these challenges, I analyzed the raw data using **SQL**.
 
 **Data Linking:** I merged the transaction history (`order_details`) with the product catalog (`menu_items`) using `LEFT JOIN` to attach pricing and category data to every single item sold.
+
 **Categorization:** I aggregated data by cuisine type (Italian, Asian, Mexican, American) to see high-level trends.
+
 **Ranking:** I used `ORDER BY` and `GROUP BY` functions to identify bestsellers, highest-grossing items, and top-spending customers.
 
 ---
@@ -31,12 +33,14 @@ The analysis revealed a distinct split between items that drive **volume** (foot
 
 ### 3. Menu "Dead Weight"
 The analysis identified items that are taking up menu space but generating little interest:
+
 **Chicken Tacos** are the least popular item on the entire menu (only 123 orders).
 
 **Potstickers** and **Cheese Lasagna** also languish at the bottom, with just over 200 orders each.
 
 ### 4. High-Value Orders
 I identified the top spending "VIP" orders to understand what a massive basket looks like.
+
 **Record Holder:** **Order #440** was the highest single transaction, totaling **$192.15**.
 
 **Trend:** The top 5 orders (including Order #2075 and #1957) all exceeded **$185**, significantly higher than the average, indicating a subset of customers placing large group orders or catering-style purchases.
@@ -44,6 +48,7 @@ I identified the top spending "VIP" orders to understand what a massive basket l
 ---
 ## 💡 Recommendations
 ### 🛑 Menu Optimization
+
 **Cut the Chicken Tacos:** With only 123 orders (5x less than hamburgers), this item should be removed or reinvented to reduce ingredient waste.
 
 **Promote the "Stars":** The **Korean Beef Bowl** is the star of the menu. Feature this item prominently in marketing materials or as a "Chef's Special" to drive even more high-value sales.
