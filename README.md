@@ -2,11 +2,12 @@
 ## 📌 The Problem
 Kimp Restaurant has captured extensive transactional data but lacks the insights needed to optimize its menu and operations. The business faces three core challenges:
 1. **Menu Performance:** It is unclear which dishes are driving revenue versus which are "dead weight" on the menu.
-2. **Customer Behavior:** There is no visibility into spending habits—specifically, what constitutes a high-value order compared to a standard transaction.
+2. **Customer Behavior:** There is no visibility into spending habits specifically, what constitutes a high-value order compared to a standard transaction.
 3. **Operational Blind Spots:** Management needs to identify peak ordering categories to better manage inventory and prep stations (e.g., Asian vs. Italian stations).
 
 ## 🛠️ How It Was Solved
 To address these challenges, I analyzed the raw data using **SQL**.
+
 **Data Linking:** I merged the transaction history (`order_details`) with the product catalog (`menu_items`) using `LEFT JOIN` to attach pricing and category data to every single item sold.
 **Categorization:** I aggregated data by cuisine type (Italian, Asian, Mexican, American) to see high-level trends.
 **Ranking:** I used `ORDER BY` and `GROUP BY` functions to identify bestsellers, highest-grossing items, and top-spending customers.
