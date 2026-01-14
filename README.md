@@ -59,6 +59,5 @@ I identified the top spending "VIP" orders to understand what a massive basket l
 **Group Bundles:** Given the existence of $190+ orders, introduce "Family Bundles" or "Office Lunch Packs" priced around $150–$180 to specifically target the high-spenders identified in the analysis.
 
 ### 📦 Inventory Planning
-**Stock for Volume, Prep for Value:** The kitchen must prioritize stock for Asian ingredients (highest volume) to prevent stockouts, but ensure the Italian station is staffed with the most experienced cooks to protect the highest revenue stream
 
 **Stock for Volume, Prep for Value:** The kitchen must prioritize stock for **Asian ingredients** (highest volume) to prevent stockouts, but ensure the **Italian station** is staffed with the most experienced cooks to protect the highest revenue stream.
