@@ -43,6 +43,15 @@ I identified the top spending "VIP" orders to understand what a massive basket l
 
 **Record Holder:** **Order #440** was the highest single transaction, totaling **$192.15**.
 
+| order_id	| total_spend |
+| --- | --- |
+| 440 |	192.15 |
+| 2075	| 191.05 |
+| 1957 |	190.10 |
+| 330	| 189.70 |
+| 2675 | 185.10 |
+
+
 **Trend:** The top 5 orders (including Order #2075 and #1957) all exceeded **$185**, significantly higher than the average, indicating a subset of customers placing large group orders or catering-style purchases.
 
 ---
