@@ -22,6 +22,15 @@ The analysis revealed a distinct split between items that drive **volume** (foot
 
 **Volume Leader:** The **Hamburger** is the #1 most-ordered item (622 orders), acting as a reliable staple for the business.
 
+| **item_name** |	**category** |	**num_purchases** |
+| --- | --- | --- |
+| Hamburger |	American |	622 |
+| Edamame	| Asian	| 620 |
+| Korean Beef Bowl |	Asian |	588 |
+| Cheeseburger |	American |	583 |
+|French Fries |	American |	571 |
+| Tofu Pad Thai |	Asian |	562 |
+
 **Revenue Champion:** The **Korean Beef Bowl** is the single most valuable dish. It is the 3rd most ordered item but generates the highest total revenue (**~$10,500**), outperforming the Hamburger by nearly $2,500 due to its higher price point.
 
 **Hidden Gems:** **Spaghetti & Meatballs** is the 2nd highest revenue generator (~$8,400), proving that Italian entrees are crucial for the bottom line.
@@ -38,19 +47,27 @@ The analysis identified items that are taking up menu space but generating littl
 
 **Potstickers** and **Cheese Lasagna** also languish at the bottom, with just over 200 orders each.
 
+| **item_name** |	**category** |	**num_purchases** |
+| --- | --- | --- |
+| Chicken Tacos |	Mexican |	123 |
+| Potstickers |	Asian |	205 |
+| Cheese Lasagna |	Italian	| 207 |
+| Steak Tacos |	Mexican	| 214 |
+| Cheese Quesadillas	| Mexican |	233 |
+
+
 ### 4. High-Value Orders
 I identified the top spending "VIP" orders to understand what a massive basket looks like.
 
 **Record Holder:** **Order #440** was the highest single transaction, totaling **$192.15**.
 
-| order_id	| total_spend |
+| **order_id**	| **total_spend** |
 | --- | --- |
 | 440 |	192.15 |
 | 2075	| 191.05 |
 | 1957 |	190.10 |
 | 330	| 189.70 |
 | 2675 | 185.10 |
-
 
 **Trend:** The top 5 orders (including Order #2075 and #1957) all exceeded **$185**, significantly higher than the average, indicating a subset of customers placing large group orders or catering-style purchases.
 
